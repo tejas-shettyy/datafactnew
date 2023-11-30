@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "DF-Dest"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
+		},
 		"Dest_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'Dest'"
@@ -41,6 +45,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"AzureBlobStorage1_connectionString": {
+						"value": "[parameters('AzureBlobStorage1_connectionString')]"
 					},
 					"Dest_connectionString": {
 						"value": "[parameters('Dest_connectionString')]"

@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "DF-Dest"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
 		"Dest_connectionString": {
 			"value": ""
 		},
