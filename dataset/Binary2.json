@@ -2,7 +2,7 @@
 	"name": "Binary2",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "Dest",
+			"referenceName": "source",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
