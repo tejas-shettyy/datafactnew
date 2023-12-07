@@ -1,0 +1,17 @@
+{
+	"name": "Binary8",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Dest",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "container1"
+			}
+		}
+	}
+}
